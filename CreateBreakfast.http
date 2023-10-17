@@ -2,7 +2,7 @@ POST http://localhost:5053/breakfasts
 Content-Type: application/json
 
 {
-  "name": "Test",
+  "name": "Test123",
   "description": "test",
   "startDateTime": "2022-04-08T08:00:00",
   "endDateTime": "2022-04-08T11:00:00",
@@ -14,3 +14,8 @@ Content-Type: application/json
     "test123423"
   ]
 }
+
+
+###
+
+GET http://localhost:5053/breakfasts/c6bc1448-4223-47ea-a3da-6c25c358fe22

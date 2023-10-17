@@ -11,9 +11,19 @@ namespace BuberBreakfast.Services.Breakfasts
             _breakfasts.Add(breakfast.Id, breakfast);
         }
 
+        public void DeleteBreakfast(Guid id)
+        {
+            _breakfasts.Remove(id);
+        }
+
         public Breakfast GetBreakfast(Guid id)
         {
             return _breakfasts[id];
+        }
+
+        public void UpsetBreakfast(Breakfast breakfast)
+        {
+            _breakfasts[breakfast.Id] = breakfast;
         }
     }
 }
