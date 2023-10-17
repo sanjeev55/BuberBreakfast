@@ -1,0 +1,18 @@
+@id = 00000000-0000-0000-0000-000000000000
+
+PUT http://localhost:5053/breakfasts/{{id}}
+Content-Type: application/json
+
+{
+  "name": "Test123sa",
+  "description": "testwer",
+  "startDateTime": "2022-04-08T08:00:00",
+  "endDateTime": "2022-04-08T11:00:00",
+  "savory":[
+    "test12",
+    "test234234"
+  ],
+  "sweet":[
+    "test123423"
+  ]
+}
