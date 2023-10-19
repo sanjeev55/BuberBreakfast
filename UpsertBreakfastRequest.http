@@ -1,11 +1,10 @@
-@id = 60d15e94-403e-4c04-87c2-f4596c8ef627
-
+@id = 0ccdef70-744c-49c9-ab20-0da8a4f07934
 PUT http://localhost:5053/breakfasts/{{id}}
 Content-Type: application/json
 
 {
-  "name": "Test123sa34",
-  "description": "testwer",
+  "name": "T",
+  "description": "asdfaghs",
   "startDateTime": "2022-04-08T08:00:00",
   "endDateTime": "2022-04-08T11:00:00",
   "savory":[
